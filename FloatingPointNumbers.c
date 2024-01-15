@@ -41,6 +41,23 @@ int main(void){
     printf("\t fb = %f\n", fb);
     printf("\t b = %d\n", b);
 
+    // floor(), ceil() and round() - these are in math.h header file
+    int x;
+    float fx;
+
+    fx = 3.14;
+    x = fx;
+    printf("\n\t FLOOR,CEIL and ROUND...\n");
+    printf("\t---------------------------------\n");
+    printf("\t Defaut x = %d\n", x);
+    
+    x = floor(fx);
+    printf("\t Floor value: %d\n", x);
+    x = ceil(fx);
+    printf("\t Ceil value: %d\n", x);
+    x = round(fx);
+    printf("\t Round value: %d\n", x);
+
     printf("\n\n");
     return 0;
 }
