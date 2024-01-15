@@ -58,6 +58,17 @@ int main(void){
     x = round(fx);
     printf("\t Round value: %d\n", x);
 
+    //TypeCasting
+    /*Changing the type of a variable only for the sake of calculation is called TYPECASTING*/
+    int marks = 2, outof = 3;
+    float fpercent;
+    fpercent = (float) marks / outof * 100; //typecasting - we can cast both or anyone of them
+    printf("\n\t TypeCasting...\n");
+    printf("\t----------------------------------\n");
+    printf("\t Marks = %d | Outof = %d \n", marks, outof);
+    printf("\t Percentage = %4.2f%%", fpercent);
+    //for printing % symbol, we use %%
+
     printf("\n\n");
     return 0;
 }
