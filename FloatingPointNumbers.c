@@ -57,6 +57,8 @@ int main(void){
     printf("\t Ceil value: %d\n", x);
     x = round(fx);
     printf("\t Round value: %d\n", x);
+    x = trunc(fx);
+    printf("\t Truncated value : %d\n", x);
 
     //TypeCasting
     /*Changing the type of a variable only for the sake of calculation is called TYPECASTING*/
