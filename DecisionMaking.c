@@ -68,6 +68,18 @@ int main(void){
     //printf("\t max = %d", (a>b)?a:b);
     (a>b) ? printf("\t max is %d\n", a) : printf("\t max is %d\n", b);
 
+    //?IF - ELSE IF-ELSE STATEMENT - comparing two numbers whether they are less, greater or equal
+    printf("\n\t ------------------------------\n");
+    printf("\t IF-ELSE | Comparison Operators...\n");
+    printf("\t ------------------------------\n");
+    if(a<b) printf("\t a<b is true\n");
+    if(a<=b) printf("\t a<=b is true\n");
+    if(a==b) printf("\t a==b is true\n");
+    if(a>b) printf("\t a>b is true\n");
+    if(a>=b) printf("\t a>=b is true\n");
+    if(a!=b) printf("\t a!=b is true\n");
+    /* When C DOES ANY OF THE ABOVE COMPARISONS, IT RETURNS A "1", if the condition is true and "0" if the condition
+    is false */
 
     printf("\n");
     return 0;
