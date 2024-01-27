@@ -81,6 +81,14 @@ int main(void){
     /* When C DOES ANY OF THE ABOVE COMPARISONS, IT RETURNS A "1", if the condition is true and "0" if the condition
     is false */
 
+    //?IF - ELSE Combining Multiple Conditions
+    printf("\n\t ---------------------------------------------\n");
+    printf("\t IF-ELSE: Combining Multiple Conditions (&& ||)...\n");
+    printf("\t ---------------------------------------------\n");
+
+    if(a<100 && a%2==0) printf("\t a < 100 and even\n"); //both conditions must be true - AND
+    if(a<100 || a%2==0) printf("\t a is either less than 100 or even\n"); //either of the condition must be true - OR
+
     printf("\n");
     return 0;
 }
