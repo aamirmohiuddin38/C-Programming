@@ -8,7 +8,7 @@ int main(void){
     printf("DECISION MAKING ...\n");
 
     //declaring variable
-    int a, b;
+    int a, b, max;
     printf("\nEnter a: | ");
     scanf("%d", &a);
     printf("Enter b: | ");
@@ -57,7 +57,18 @@ int main(void){
 
     if (a % 2 == 0) printf("\t 'a' is EVEN\n");
     else printf("\t 'a' is ODD\n");
-    
+
+    //? TERNARY IF ELSE Statement....
+    printf("\n\t ------------------------------\n");
+    printf("\t TERNARY IF- ELSE Statement\n");
+    printf("\t ------------------------------\n");
+
+    max = (a>b) ? a : b;
+    printf("\t max = %d\n", max);
+    //printf("\t max = %d", (a>b)?a:b);
+    (a>b) ? printf("\t max is %d\n", a) : printf("\t max is %d\n", b);
+
+
     printf("\n");
     return 0;
 }
