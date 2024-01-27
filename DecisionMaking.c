@@ -20,6 +20,18 @@ int main(void){
     {
         printf("\t 'a' is EVEN\n");
     }
+
+     //?IF - ELSE STATEMENT - checking whether 'a' is even or odd
+    printf("\n\t ------------------------------\n");
+    printf("\t IF-ELSE Statement...\n");
+    printf("\t ------------------------------\n");
+    if (a % 2 == 0)
+    {
+        printf("\t 'a' is EVEN\n");
+    }
+    else{
+        printf("\t 'a' is ODD\n");
+    }
     
     printf("\n");
     return 0;
