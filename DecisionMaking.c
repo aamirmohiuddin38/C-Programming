@@ -49,6 +49,14 @@ int main(void){
     else{
         printf("\t 'a' and 'b' are equal | a = b |\n");
     }
+     //?IF - ELSE STATEMENT - ONE LINER
+     //!if-else can be written in only one line and without braces if the code block contain only one line as:
+    printf("\n\t ------------------------------\n");
+    printf("\t IF-ELSE Statement... OneLine/Without braces\n");
+    printf("\t ------------------------------\n");
+
+    if (a % 2 == 0) printf("\t 'a' is EVEN\n");
+    else printf("\t 'a' is ODD\n");
     
     printf("\n");
     return 0;
