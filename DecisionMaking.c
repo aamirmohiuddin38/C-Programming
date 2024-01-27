@@ -8,9 +8,11 @@ int main(void){
     printf("DECISION MAKING ...\n");
 
     //declaring variable
-    int a;
+    int a, b;
     printf("\nEnter a: | ");
     scanf("%d", &a);
+    printf("Enter b: | ");
+    scanf("%d", &b);
 
     //?IF STATEMENT - checking whether 'a' is even, if even, print 'a' and if not then do nothing
     printf("\n\t ------------------------------\n");
@@ -31,6 +33,21 @@ int main(void){
     }
     else{
         printf("\t 'a' is ODD\n");
+    }
+
+     //?IF - ELSE IF-ELSE STATEMENT - comparing two numbers whether they are less, greater or equal
+    printf("\n\t ------------------------------\n");
+    printf("\t IF-ELSE IF- ELSE Statement...\n");
+    printf("\t ------------------------------\n");
+    if (a < b)
+    {
+        printf("\t 'b' is GREATER\n");
+    }
+    else if(a > b){
+        printf("\t 'a' is GREATER\n");
+    }
+    else{
+        printf("\t 'a' and 'b' are equal | a = b |\n");
     }
     
     printf("\n");
