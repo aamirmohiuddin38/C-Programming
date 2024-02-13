@@ -59,6 +59,23 @@ int main(void){
     for(j=0; j<=1; j=j + 0.05){
         printf("\t %4.2f\n", j);
     }
+
+    //Examples of type char
+    char c;
+    printf("\n\t -----------------------------------\n");
+    printf("\t Small Letter Alphabets..\n");
+    printf("\t -----------------------------------\n");
+    for(c='a'; c<='z'; c++){
+        printf("\t %c\n", c);
+    }
+
+    printf("\n\t -----------------------------------\n");
+    printf("\t Capital Letter Alphabets..\n");
+    printf("\t -----------------------------------\n");
+    for(c='A'; c<='Z'; c++){
+        printf("\t %c\n", c);
+    }
+
     printf("\n");
     return 0;
 }
