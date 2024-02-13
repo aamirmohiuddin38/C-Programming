@@ -44,7 +44,21 @@ int main(void){
         printf("\t %d\n", i);
     }
 
+    //Examples of type float
+    float j;
+    printf("\n\t -----------------------------------\n");
+    printf("\t Incrementing by 0.1 | Ascending Order\n");
+    printf("\t -----------------------------------\n");
+    for(j=0; j<=1; j=j + 0.1){
+        printf("\t %4.2f\n", j);
+    }
 
+    printf("\n\t -----------------------------------\n");
+    printf("\t Incrementing by 0.1 | Ascending Order\n");
+    printf("\t -----------------------------------\n");
+    for(j=0; j<=1; j=j + 0.05){
+        printf("\t %4.2f\n", j);
+    }
     printf("\n");
     return 0;
 }
