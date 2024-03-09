@@ -26,6 +26,29 @@ int main(void){
         printf("\tarrint[%d] : %d\n", i, arrint[i]);
     }
 
+    //? Float Array
+    float arrfloat[5] = {1,2,3,4,5};
+    printf("\n\n\tPrinting Float Array..\n");
+    printf("\t-----------------------------------\n");
+    for(int i=0; i<5; i++){
+        printf("\tarrfloat[%d] : %4.1f\n", i, arrfloat[i]);
+    }
+
+    //? Char Array
+    char arrchar[5] = {'A','A', 'M','I','R'};
+    printf("\n\n\tPrinting Float Array..\n");
+    printf("\t-----------------------------------\n");
+    for(int i=0; i<5; i++){
+        printf("\tarrchar[%d] : %c\n", i, arrchar[i]);
+    }
+    //? Printing full name
+    printf("\t-------------------\n");
+    printf("\t\t");
+    for(int i=0; i<5; i++){
+        printf("%c", arrchar[i]);
+    }
+    printf("\n\t--------------------\n");
+
     printf("\n\n");
     return 0;
 }
