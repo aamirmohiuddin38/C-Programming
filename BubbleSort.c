@@ -31,7 +31,7 @@ int main(void){
 
     //Sort the Array - Ascending
     for(i=0; i<count-1; i++){
-        for(j=0; j<count-1; j++){
+        for(j=0; j<count-1-i; j++){
             if(arrnum[j] > arrnum[j+1]){
                 temp = arrnum[j];
                 arrnum[j] = arrnum[j+1];
@@ -49,7 +49,7 @@ int main(void){
 
     //Sort the Array - Descending
     for(i=0; i<count-1; i++){
-        for(j=0; j<count-1; j++){
+        for(j=0; j<count-1-i; j++){
             if(arrnum[j] < arrnum[j+1]){
                 temp = arrnum[j];
                 arrnum[j] = arrnum[j+1];
