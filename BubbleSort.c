@@ -1,4 +1,8 @@
 // Sorting of an array - BUBBLE SORT
+/* What is BUBBLE SORT -- Bubble Sort
+	Compare two adjacent numbers if they are in the correct order, then leave them as it is,
+	Else exchange them. */
+    
 #include <stdio.h>
 #include <stdlib.h>
 int main(void){
