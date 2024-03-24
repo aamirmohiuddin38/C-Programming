@@ -12,11 +12,29 @@ int main(void){
     float percentage;
     int indexth=0, indexv=0, indexl=0, indext=0;
 
+    //scan marks of the subjects
+    for( i = 0; i < 5; i++){
+        printf("\nEnter Marks for Sub %d :", i+1);
+        printf("\n-----------------------\n");
+            printf("Theory: " );
+            scanf("%3d", &arrmarks[i][0]);
+
+            printf("Viva: " );
+            scanf("%3d", &arrmarks[i][1]);
+
+            printf("Lab: " );
+            scanf("%3d", &arrmarks[i][2]);
+
+            total = arrmarks[i][0] + arrmarks[i][1] + arrmarks[i][2];
+            arrmarks[i][3] = total;
+            grandTotal += total;
+    }
+
     printf("\t Theory  Viva \t Lab \t Total\n");
     printf("----------------------------------------\n");
     for ( i = 0; i < 5; i++)
     {
-        printf("Sub %d\t ", i+1);
+        printf("Sub %d |\t ", i+1);
         for ( j = 0; j < 4; j++)
         {
             printf("%3d \t ", arrmarks[i][j]);
